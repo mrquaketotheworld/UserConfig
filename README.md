@@ -1,5 +1,5 @@
 # UserConfig
-Chrome/Brave browser extension. Autorun saved commands in chat on the play-cs.com (CS 1.6 in browser).
+Chrome/Brave browser extension. Autorun saved commands in chat on the www.play-cs.com (CS 1.6 in browser).
 
 ![UserConfig](https://user-images.githubusercontent.com/53916002/232315527-23b354de-3512-4889-a2b0-b22b781d06e9.png)
 
