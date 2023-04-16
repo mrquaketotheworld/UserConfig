@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="input-container">
+      <select class="js-select">
+        <option value="Config 1">Config 1</option>
+        <option value="Config 2">Config 2</option>
+        <option value="Config 3">Config 3</option>
+        <option value="Config 4">Config 4</option>
+        <option value="Config 5">Config 5</option>
+      </select>
+      <input
+        class="input-command js-input-command"
+        type="text"
+        placeholder="bind &quot;f&quot; stopsound"
+        maxlength="30"
+      />
+      <button class="button-save js-button-save">Save</button>
+    </div>
+    <ul class="list-commands js-list-commands"></ul>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  min-width: 360px;
+  padding: 0;
+  margin: 10px 5px;
+}
+
+.input-container,
+.list-item {
+  display: flex;
+  margin: 0 5px;
+}
+
+.input-container {
+  padding: 5px;
+  background: #4fc3f7;
+  border-radius: 5px;
+}
+
+.input-command {
+  padding-left: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  outline: none;
+  margin-right: 5px;
+  height: 22px;
+  line-height: 22px;
+}
+
+.list-commands {
+  padding-left: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.list-item {
+  align-self: center;
+  list-style-type: none;
+  color: grey;
+  border-radius: 5px;
+  margin: 8px 5px;
+  line-height: 22px;
+  padding: 2px;
+  overflow: hidden;
+  height: 22px;
+  border: 1px solid grey;
+  background: white;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.checkbox:checked + label {
+  color: black;
+}
+
+.button-remove,
+.button-save {
+  font-family: 'Inter', sans-serif;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.command-label {
+  margin-left: 5px;
+}
+
+select {
+  outline: none;
+  margin-right: 5px;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+}
